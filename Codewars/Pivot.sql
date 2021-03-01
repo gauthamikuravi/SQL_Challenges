@@ -1,3 +1,4 @@
+/*
 #For this challenge you need to PIVOT data. You have two tables, products and details. Your task is to pivot the rows in products to produce a table of products which have rows of their detail. Group and Order by the name of the Product.
 
 #Tables and relationship below:
@@ -14,7 +15,7 @@
 #Compare your table to the expected table to view the expected results.
 
 
-
+*/
 
 CREATE EXTENSION tablefunc;
 SELECT * 
