@@ -13,6 +13,8 @@ NOTE: Your solution should use pure SQL. Ruby is used within the test cases to d
 
 #Reference https://www.postgresql.org/docs/9.6/plpgsql-declarations.html#PLPGSQL-DECLARATION-PARAMETERS
 */
+
+
 CREATE FUNCTION ageCalculator (a timestamp) 
 RETURNS integer AS $$
 BEGIN
